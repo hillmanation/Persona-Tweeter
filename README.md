@@ -1,6 +1,6 @@
-# Ray Zee Bot — Starter Repo
+# Persona Tweeter — Starter Repo
 
-A modular **discord.py** bot that drafts **Ray Zee**-style tweets using the ChatGPT API, previews them for approval, and posts to X (Twitter) via API v2. Includes OAuth 2.0 (PKCE) link flow, multi-account persona switching, and stubs for replies & image captions.
+A modular **discord.py** bot that drafts persona-driven tweets using the OpenAI API and posts to X (Twitter) via the X API v2. Includes OAuth 2.0 (PKCE) link flow, multi-account & multi-persona support, preview/approval, and stubs for replies and image captions.
 
 ## Quick start
 1. Create a virtual env and install deps:
@@ -16,12 +16,12 @@ A modular **discord.py** bot that drafts **Ray Zee**-style tweets using the Chat
 
 ## Structure
 ```
-rayzee-starter/
+persona-tweeter/
   config/
     personas.yaml
     accounts.yaml
   src/
-    rayzee_bot/
+    persona_tweeter/
       __init__.py
       config.py
       storage.py
@@ -48,10 +48,9 @@ rayzee-starter/
   requirements.txt
   .env.example
   README.md
-  rayzee_project_plan.md
 ```
 
 ## Notes
 - Media upload and vision/image captioning are stubbed with clear TODOs.
-- Tokens are stored in SQLite (encrypted-at-rest recommended for production).
-- Adjust scopes in the X developer portal: `tweet.read tweet.write users.read offline.access media.write`.
+- Tokens are stored in SQLite (encrypt at rest for production).
+- Scopes in the X developer portal: `tweet.read tweet.write users.read offline.access media.write`.
