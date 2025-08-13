@@ -1,0 +1,5 @@
+# Logical account keys map to token records in DB.
+accounts:
+  rayzee:
+    screen_name: "RayZeeOfficial"
+    twitter_user_id: ""  # optional hint; tokens determine posting identity
