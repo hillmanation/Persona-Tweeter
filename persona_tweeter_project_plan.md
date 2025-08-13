@@ -159,3 +159,7 @@ accounts:
 - `/reply_to_tweet` reads a tweet (and image), generates an in-persona reply, and posts it on approval.
 - `/caption_image` generates a caption and posts w/ media.
 - `/switch_account` & `/set_persona` change defaults without restarts.
+
+
+## **Planned Features**
+- Once Tweet is generated and available, reply to the user in Discord with the Tweet embed
