@@ -1,6 +1,6 @@
 # Persona Tweeter — Starter Repo
 
-A modular **discord.py** bot that drafts persona-driven tweets using the OpenAI API and posts to X (Twitter) via the X API v2. Includes OAuth 2.0 (PKCE) link flow, multi-account & multi-persona support, preview/approval, and stubs for replies and image captions.
+A modular **discord.py** bot that drafts persona-driven tweets using the OpenAI API and posts to X (Twitter) via the X API v2 as well as Bluesky. Includes OAuth 2.0 (PKCE) link flow, multi-account & multi-persona support, preview/approval, and stubs for replies and image captions.
 
 ## Quick start
 1. Create a virtual env and install deps:
